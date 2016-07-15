@@ -11,12 +11,41 @@
     <atom:link href="https://afontana.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>sobre</title>
+      <title>Sobre Mim</title>
       <link>https://afontana.github.io/sobre/</link>
       <pubDate>Thu, 14 Jul 2016 22:47:32 -0300</pubDate>
       
       <guid>https://afontana.github.io/sobre/</guid>
-      <description></description>
+      <description>
+
+&lt;p&gt;Olá!&lt;/p&gt;
+
+&lt;p&gt;Meu nome é André Luis Fontana, mas podem me chamar de Fontana que é como sou mais conhecido.&lt;/p&gt;
+
+&lt;p&gt;Eu sou brasileiro e já morei no México nos anos de 2009 a 2010. Atualmente moro em Artur Nogueira - SP - Brasil&lt;/p&gt;
+
+&lt;h3 id=&#34;gerente-de-projetos-sênior-open-source-devops-segurança-da-informação&#34;&gt;Gerente de Projetos Sênior - Open Source / DevOps / Segurança da Informação&lt;/h3&gt;
+
+&lt;p&gt;Eu trabalho com TI desde 1994 e já fui desenvolvedor clipper, C/C++, Visual Basic e Java. Desde de 2003 gerencio projetos.
+Tenho 5 anos de experiência em elaboração de propostas de fábrica de software nas mais diversas tecnologias e produtos.
+Atualmente estou me especializando e estudando muito a cultura Open Sorce e filosofia DevOps com foco em Segurança da Informação.&lt;/p&gt;
+
+&lt;h3 id=&#34;gamer-e-aficcionado-por-tecnologia-e-automação-de-processos-de-desenvolvimento-de-software-devops&#34;&gt;Gamer e Aficcionado por tecnologia e automação de processos de Desenvolvimento de Software - Devops&lt;/h3&gt;
+
+&lt;p&gt;Nas horas livres gosto muito de jogar games, principalemnte os jogos de estratégia.
+Gosto de trabalhar com maquinas virtuais linux e praticar automatização de tarefas com shellscripts e python do ponto de vista DevOps.
+Utilizo maquinas virtuais também para brincar de pentest com Linux Kali, Cyborg e Parrot.&lt;/p&gt;
+
+&lt;h2 id=&#34;sobre-este-site&#34;&gt;Sobre este site&lt;/h2&gt;
+
+&lt;p&gt;Este site foi meu teste para hospedar um blog no Github. Além de ser meu treinamento com a linguagem GO + gerador de site estático HUGO.
+Pretendo colocar posts de qualidade e técnicos como resultado de meus estudos e pesquisas de especialização DevOps e Open Source&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Gerado usando &lt;a href=&#34;//gohugo.io&#34;&gt;Hugo&lt;/a&gt;, um motor moderno e rápido para geração de sites estáticos&lt;/li&gt;
+&lt;li&gt;Hospedado no meu GitHub &lt;a href=&#34;//github.com/afontana/afontana.github.io&#34;&gt;repository&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
