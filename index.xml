@@ -69,12 +69,18 @@ Pretendo colocar posts de qualidade e técnicos como resultado de meus estudos e
     </item>
     
     <item>
-      <title>Bem Vindo</title>
-      <link>https://afontana.github.io/post/bem_vindo/</link>
+      <title>O que é afontana.github.io ?</title>
+      <link>https://afontana.github.io/post/por_que_este_site/</link>
       <pubDate>Thu, 14 Jul 2016 19:35:20 -0300</pubDate>
       
-      <guid>https://afontana.github.io/post/bem_vindo/</guid>
-      <description>&lt;p&gt;Bem vindo ao &lt;strong&gt;Primeiro post do Blog&lt;/strong&gt;&lt;/p&gt;
+      <guid>https://afontana.github.io/post/por_que_este_site/</guid>
+      <description>&lt;p&gt;É um site pessoal hospedado no &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; que pretende disponibilizar contéudo sobre desenvolvimentos (DevOps), Open Source, Segurança da Informação, Hacking e Gestão.&lt;/p&gt;
+
+&lt;p&gt;O Site é desenvolvido utilizando o rápido e moderno gerador de site estático &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;HUGO&lt;/a&gt; e já foi meu primeiro laboratório de utilização de sites estáticos no GitHub gerando posts em arquivos Markdonw.&lt;/p&gt;
+
+&lt;p&gt;Pretendo escrever post de qualidade e que agreguem valor aos leitores que acompanharem o site.&lt;/p&gt;
+
+&lt;p&gt;Não deixa de nos visitar sempre (coloque o site no seus favoritos), pois muita coisa boa vem por ai.&lt;/p&gt;
 </description>
     </item>
     
