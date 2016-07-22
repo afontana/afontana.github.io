@@ -7,22 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>&amp;copy; 2016. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 14 Jul 2016 19:35:20 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jul 2016 10:29:20 -0300</lastBuildDate>
     <atom:link href="https://afontana.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>O que é afontana.github.io ?</title>
       <link>https://afontana.github.io/post/por_que_este_site/</link>
-      <pubDate>Thu, 14 Jul 2016 19:35:20 -0300</pubDate>
+      <pubDate>Fri, 22 Jul 2016 10:29:20 -0300</pubDate>
       
       <guid>https://afontana.github.io/post/por_que_este_site/</guid>
-      <description>&lt;p&gt;É um site pessoal hospedado no &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; que pretende disponibilizar contéudo sobre desenvolvimentos (DevOps), Open Source, Segurança da Informação, Hacking e Gestão.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;O Site é desenvolvido utilizando o rápido e moderno gerador de site estático &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;HUGO&lt;/a&gt; e já foi meu primeiro laboratório de utilização de sites estáticos no GitHub gerando posts em arquivos Markdonw.&lt;/p&gt;
+&lt;p&gt;É um site pessoal hospedado no &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; que pretende disponibilizar contéudo sobre
+assuntos e temas que estou atualmente me especializando: Desenvolvimento (DevOps), Open Source, Segurança da Informação e Hacking. Mais
+informações &lt;a href=&#34;https://afontana.github.io/sobre&#34;&gt;&lt;strong&gt;sobre mim&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pra você que é exigente quanto a qualidade, simplicidade e clareza nas informações que busca, talvez este site seja uma resposta a suas expectativas.
+Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;strong&gt;NÂO DEIXE DE CONFERIR&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;O Site é desenvolvido utilizando o rápido e moderno gerador de site estático &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; e já
+foi meu primeiro laboratório de utilização de sites estáticos no GitHub gerando posts em arquivos &amp;ldquo;.md&amp;rdquo; (markdown).&lt;/p&gt;
 
 &lt;p&gt;Pretendo escrever post de qualidade e que agreguem valor aos leitores que acompanharem o site.&lt;/p&gt;
 
-&lt;p&gt;Não deixa de nos visitar sempre (coloque o site no seus favoritos), pois muita coisa boa vem por ai.&lt;/p&gt;
+&lt;h2 id=&#34;premissas-do-site&#34;&gt;Premissas do site:&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Utilizar somente softwares &lt;em&gt;open source&lt;/em&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Editor vim (IDE) com distribuição e plugins spf13&lt;/li&gt;
+&lt;li&gt;Hugo para geração de sites estáticos e GitHub para hospedagem&lt;/li&gt;
+&lt;li&gt;Git para controle e versionamento de arquivos e Github como repositŕoio remoto&lt;/li&gt;
+&lt;li&gt;Arquivos utilizando sintaxe Markdown para geração dos posts&lt;/li&gt;
+&lt;li&gt;Inkscape para tratamento de imagens vetoriais&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Não desenvolver posts simplesmentes copiando e colando texto, e sim escrevendo artigos com parecer, exempos e opinião de uso.&lt;/li&gt;
+&lt;li&gt;Responder todos os comentários postados nos artigos&lt;/li&gt;
+&lt;li&gt;Deve ser um site dinamico, rápido e sem muito efeito visual para não desviar a atenção do conteúdo que deve ser o foco.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Escolhi este conjunto de tecnologias pois o foco é no conteúdo, rapidez e clareza dos artigos(posts) além de serem todas tecnologias
+open source.&lt;/p&gt;
+
+&lt;p&gt;É um trabalho feito com dedicação que exige tempo que é feito com amor e carinho para meu crescimento profissional e para compartilhar o que aprendo com os
+que utilizarem o site regularmente e que portanto conto com a visita regular de vocês&lt;/p&gt;
+
+&lt;p&gt;Não deixa de nos visitar (coloque o site no seus favoritos), pois muita coisa boa vem por ai.&lt;/p&gt;
 </description>
     </item>
     
