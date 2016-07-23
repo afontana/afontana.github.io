@@ -23,22 +23,19 @@ assuntos e temas que estou atualmente me especializando: Desenvolvimento (DevOps
 informações &lt;a href=&#34;https://afontana.github.io/sobre&#34;&gt;&lt;strong&gt;sobre mim&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Pra você que é exigente quanto a qualidade, simplicidade e clareza nas informações que busca, talvez este site seja uma resposta a suas expectativas.
-Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;strong&gt;NÂO DEIXE DE CONFERIR&lt;/strong&gt;&lt;/p&gt;
+Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;strong&gt;NÃO DEIXE DE CONFERIR&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;O Site é desenvolvido utilizando o rápido e moderno gerador de site estático &lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; e já
-foi meu primeiro laboratório de utilização de sites estáticos no GitHub gerando posts em arquivos &amp;ldquo;.md&amp;rdquo; (markdown).&lt;/p&gt;
-
-&lt;p&gt;Pretendo escrever post de qualidade e que agreguem valor aos leitores que acompanharem o site.&lt;/p&gt;
+&lt;p&gt;Pretendo escrever artigos de qualidade e que agreguem valor aos leitores que acompanharem o site.&lt;/p&gt;
 
 &lt;h2 id=&#34;premissas-do-site&#34;&gt;Premissas do site:&lt;/h2&gt;
 
 &lt;ol&gt;
-&lt;li&gt;Utilizar somente softwares &lt;em&gt;open source&lt;/em&gt;
+&lt;li&gt;Utilizar preferencialmente softwares &lt;strong&gt;open source&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Editor vim (IDE) com distribuição e plugins spf13&lt;/li&gt;
-&lt;li&gt;Hugo para geração de sites estáticos e GitHub para hospedagem&lt;/li&gt;
-&lt;li&gt;Git para controle e versionamento de arquivos e Github como repositŕoio remoto&lt;/li&gt;
+&lt;li&gt;Editor vim (IDE) com distribuição e plugins &lt;a href=&#34;http://vim.spf13.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SPF13&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; para geração de sites estáticos e GitHub para hospedagem&lt;/li&gt;
+&lt;li&gt;Git para controle e versionamento de arquivos e Github como repositório remoto&lt;/li&gt;
 &lt;li&gt;Arquivos utilizando sintaxe Markdown para geração dos posts&lt;/li&gt;
 &lt;li&gt;Inkscape para tratamento de imagens vetoriais&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
@@ -47,11 +44,10 @@ foi meu primeiro laboratório de utilização de sites estáticos no GitHub gera
 &lt;li&gt;Deve ser um site dinamico, rápido e sem muito efeito visual para não desviar a atenção do conteúdo que deve ser o foco.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Escolhi este conjunto de tecnologias pois o foco é no conteúdo, rapidez e clareza dos artigos(posts) além de serem todas tecnologias
+&lt;p&gt;Conjunto de tecnologias escolhidas para dar o foco  no conteúdo, rapidez e clareza dos artigos(posts) além do fato de serem todas tecnologias
 open source.&lt;/p&gt;
 
-&lt;p&gt;É um trabalho feito com dedicação que exige tempo que é feito com amor e carinho para meu crescimento profissional e para compartilhar o que aprendo com os
-que utilizarem o site regularmente e que portanto conto com a visita regular de vocês&lt;/p&gt;
+&lt;p&gt;O objetivo é dividir o conhecimento e resultado de pesquisas, estudos e treinamento com quem utilizar o site regularmente.&lt;/p&gt;
 
 &lt;p&gt;Não deixa de nos visitar (coloque o site no seus favoritos), pois muita coisa boa vem por ai.&lt;/p&gt;
 </description>
