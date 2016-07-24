@@ -19,8 +19,8 @@
       <description>
 
 &lt;p&gt;É um site pessoal hospedado no &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; que pretende disponibilizar contéudo sobre
-assuntos e temas que estou atualmente me especializando: Desenvolvimento (DevOps), Open Source, Segurança da Informação e Hacking. Mais
-informações &lt;a href=&#34;https://afontana.github.io/sobre&#34;&gt;&lt;strong&gt;sobre mim&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+assuntos e temas que estou atualmente me especializando: Desenvolvimento (DevOps), Open Source, Segurança da Informação e Hacking.&lt;br /&gt;
+Mais informações &lt;a href=&#34;https://afontana.github.io/sobre&#34;&gt;&lt;strong&gt;sobre mim&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Pra você que é exigente quanto a qualidade, simplicidade e clareza nas informações que busca, talvez este site seja uma resposta a suas expectativas.
 Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;strong&gt;NÃO DEIXE DE CONFERIR&lt;/strong&gt;&lt;/p&gt;
@@ -33,7 +33,11 @@ Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;stro
 &lt;li&gt;Utilizar preferencialmente softwares &lt;strong&gt;open source&lt;/strong&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Editor vim (IDE) com distribuição e plugins &lt;a href=&#34;http://vim.spf13.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SPF13&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Editor vim (IDE) com distribuição e plugins &lt;a href=&#34;http://vim.spf13.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SPF13&lt;/strong&gt;&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Leia o tutorial publicado neste site &lt;strong&gt;&lt;a href=&#34;https://afontana.github.io/post/transformando_vim_IDE_com_SPF13/&#34;&gt;Potencializar o editor VIM com o SPF13&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; para geração de sites estáticos e GitHub para hospedagem&lt;/li&gt;
 &lt;li&gt;Git para controle e versionamento de arquivos e Github como repositório remoto&lt;/li&gt;
 &lt;li&gt;Arquivos utilizando sintaxe Markdown para geração dos posts&lt;/li&gt;

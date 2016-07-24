@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Open Source on André Fontana</title>
-    <link>https://afontana.github.io/tags/open-source/</link>
-    <description>Recent content in Open Source on André Fontana</description>
+    <title>Tutorial on André Fontana</title>
+    <link>https://afontana.github.io/tags/tutorial/</link>
+    <description>Recent content in Tutorial on André Fontana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>2016. André Fontana.</copyright>
     <lastBuildDate>Sat, 23 Jul 2016 12:36:22 -0300</lastBuildDate>
-    <atom:link href="https://afontana.github.io/tags/open-source/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://afontana.github.io/tags/tutorial/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Potencializar o editor VIM com o SPF13</title>
@@ -97,53 +97,6 @@ Atualizar o diretório, em modo NORMAL&lt;br /&gt;
 &lt;p&gt;&lt;strong&gt;Para mais dicas de uso do SPF13&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://vim.spf13.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Site SPF13&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>O que é afontana.github.io ?</title>
-      <link>https://afontana.github.io/post/por_que_este_site/</link>
-      <pubDate>Fri, 22 Jul 2016 10:29:20 -0300</pubDate>
-      
-      <guid>https://afontana.github.io/post/por_que_este_site/</guid>
-      <description>
-
-&lt;p&gt;É um site pessoal hospedado no &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt; que pretende disponibilizar contéudo sobre
-assuntos e temas que estou atualmente me especializando: Desenvolvimento (DevOps), Open Source, Segurança da Informação e Hacking.&lt;br /&gt;
-Mais informações &lt;a href=&#34;https://afontana.github.io/sobre&#34;&gt;&lt;strong&gt;sobre mim&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Pra você que é exigente quanto a qualidade, simplicidade e clareza nas informações que busca, talvez este site seja uma resposta a suas expectativas.
-Desafio você a acompanhar o desenvolvimento do site ao longo dos dias. &lt;strong&gt;NÃO DEIXE DE CONFERIR&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Pretendo escrever artigos de qualidade e que agreguem valor aos leitores que acompanharem o site.&lt;/p&gt;
-
-&lt;h2 id=&#34;premissas-do-site&#34;&gt;Premissas do site:&lt;/h2&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Utilizar preferencialmente softwares &lt;strong&gt;open source&lt;/strong&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Editor vim (IDE) com distribuição e plugins &lt;a href=&#34;http://vim.spf13.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SPF13&lt;/strong&gt;&lt;/a&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Leia o tutorial publicado neste site &lt;strong&gt;&lt;a href=&#34;https://afontana.github.io/post/transformando_vim_IDE_com_SPF13/&#34;&gt;Potencializar o editor VIM com o SPF13&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gohugo.io&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;HUGO&lt;/strong&gt;&lt;/a&gt; para geração de sites estáticos e GitHub para hospedagem&lt;/li&gt;
-&lt;li&gt;Git para controle e versionamento de arquivos e Github como repositório remoto&lt;/li&gt;
-&lt;li&gt;Arquivos utilizando sintaxe Markdown para geração dos posts&lt;/li&gt;
-&lt;li&gt;Inkscape para tratamento de imagens vetoriais&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Não desenvolver posts simplesmentes copiando e colando texto, e sim escrevendo artigos com parecer, exempos e opinião de uso.&lt;/li&gt;
-&lt;li&gt;Responder todos os comentários postados nos artigos&lt;/li&gt;
-&lt;li&gt;Deve ser um site dinamico, rápido e sem muito efeito visual para não desviar a atenção do conteúdo que deve ser o foco.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Conjunto de tecnologias escolhidas para dar o foco  no conteúdo, rapidez e clareza dos artigos(posts) além do fato de serem todas tecnologias
-open source.&lt;/p&gt;
-
-&lt;p&gt;O objetivo é dividir o conhecimento e resultado de pesquisas, estudos e treinamento com quem utilizar o site regularmente.&lt;/p&gt;
-
-&lt;p&gt;Não deixa de nos visitar (coloque o site no seus favoritos), pois muita coisa boa vem por ai.&lt;/p&gt;
 </description>
     </item>
     

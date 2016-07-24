@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Como potencializar o VIM com o plugin SPF13">
+  <meta name="generator" content="Hugo 0.16" />
+
+  <title>Potencializar o editor VIM com o SPF13 &middot; André Fontana</title>
+
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure-min.css">
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-old-ie-min.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/grids-responsive-min.css">
+  <!--<![endif]-->
+
+  <!--[if lte IE 8]>
+  <link rel="stylesheet" href="https://afontana.github.io/css/side-menu-old-ie.css">
+  <![endif]-->
+  <!--[if gt IE 8]><!-->
+  <link rel="stylesheet" href="https://afontana.github.io/css/side-menu.css">
+  <!--<![endif]-->
+
+  <link rel="stylesheet" href="https://afontana.github.io/css/blackburn.css">
+
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" type="text/css">
+
+  
+  
+
+  
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/styles/androidstudio.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.1.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  
+
+  <link rel="shortcut icon" href="https://afontana.github.io/img/glider.ico" type="image/x-icon" />
+
+
+</head>
+
+
+<body>
+<div id="layout">
+
+  
+<a href="#menu" id="menuLink" class="menu-link">
+  
+  <span></span>
+</a>
+<div id="menu">
+
+  <a class="pure-menu-heading brand" href="https://afontana.github.io/">
+  <img src="https://afontana.github.io/img/logo.png" width="80px">
+</a>
+
+
+  <div class="pure-menu">
+    <ul class="pure-menu-list">
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/"><i class='fa fa-home fa-fw'></i>Início</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/post/"><i class='fa fa-list fa-fw'></i>Posts</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/sobre/"><i class='fa fa-user fa-fw'></i>Sobre</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/contato/"><i class='fa fa-phone-square fa-fw'></i>Contato</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/tags/"><i class='fa fa-tags fa-fw'></i>Tags</a>
+      
+        </li>
+      
+      
+        <li class="pure-menu-item">
+          <a class="pure-menu-link" href="https://afontana.github.io/topics/"><i class='fa fa-folder fa-fw'></i>Tópicos</a>
+      
+        </li>
+      
+    </ul>
+  </div>
+
+  <div class="pure-menu social">
+  <ul class="pure-menu-list">
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://twitter.com/aluisfontana" target="_blank"><i class="fa fa-twitter-square fa-fw"></i>Twitter</a>
+    </li>
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://facebook.com/aluisfontana" target="_blank"><i class="fa fa-facebook-square fa-fw"></i>Facebook</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://linkedin.com/in/andrefontana" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i>LinkedIn</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <li class="pure-menu-item">
+      <a class="pure-menu-link" href="https://github.com/afontana" target="_blank"><i class="fa fa-github-square fa-fw"></i>GitHub</a>
+    </li>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+  </ul>
+</div>
+
+
+  <div>
+  <div class="small-print">
+    <small>2016. André Fontana.</small>
+  </div>
+  <div class="small-print">
+      <small>Construído com&nbsp;<a href="https://gohugo.io/" target="_blank">Hugo</a></small>
+      <small>Tema&nbsp;<a href="https://github.com/yoshiharuyamashita/blackburn" target="_blank">Blackburn</a></small>
+  </div>
+</div>
+
+</div>
+
+
+  <div id="main">
+
+
+<div class="header">
+  <h1>Potencializar o editor VIM com o SPF13</h1>
+  <h2>Como potencializar o VIM com o plugin SPF13</h2>
+</div>
+<div class="content">
+  
+
+<h2 id="vim">VIM</h2>
+
+<blockquote>
+<p>VIM é um editor de textos altamente configurável feito para criar e modificar textos com agiliade e eficiência. Vim trabalha
+sobre o CLI (Command Line Interface) e todos sabemos que CLI é muito mais rápido sobre protocolo ssh comparado a GUI (Graphical User Interface).<br />
+Mais detalhes sobre <a href="http://www.vim.org" target="_blank"><strong>VIM</strong></a></p>
+</blockquote>
+
+<h2 id="spf13">SPF13</h2>
+
+<blockquote>
+<p>SPF13 é um distribuição de plugin e recursos que permite customizar o VIM provendo uma lista de funcionalidades modernas como autocompletar textos,
+gestão de configuração integrado ao GIT, tags, padrão de cores entre outros.<br />
+Mais detalhes sobre <a href="http://vim.spf13.com" target="_blank"><strong>SPF13</strong></a></p>
+</blockquote>
+
+<p>Neste tutorial vou mostrar como adicionar a distribuição vim SPF13 que vem com plugins realmente bons e agilizam bastante o trabalho de criar e alterar
+textos. Claro que você pode optar por usar ou não os plugins e fica a seu critério definir o que melhor atende a suas expectativas, porém utilizando apenas
+o SPF13 já torna tudo mais prático ágil.</p>
+
+<p><strong>Antes de prosseguir, faça o backup de ~/.vimrc e todos os arquivos customizados do vim que estejam no seu diretório ~/</strong></p>
+
+<p>Considerando que você já tenha o vim instalado. Caso nao tenha poderá instalar de acordo com sua distribuição linux.</p>
+
+<p>Exemplo nas distribuições baseadas em Debian:</p>
+
+<pre><code>$ sudo apt-get install vim 
+</code></pre>
+
+<p>Para instalação atraves do código fonto do VIM veja a documentação <a href="http://vimdoc.sourceforge.net/htmldoc/usr_90.html#install" target ="_blank"><strong>AQUI</strong></a></p>
+
+<h4 id="passo-1-instalar-a-distribuição-vim-spf13">Passo 1 - Instalar a distribuição VIM SPF13</h4>
+
+<p>Para instalar o pacote SPF13-VIM utilize o instalador automático.</p>
+
+<p>Execute a linha de comando abaixo no terminal linux</p>
+
+<pre><code>curl http://j.mp/spf13-vim3 -L -o - | sh
+</code></pre>
+
+<h4 id="passo-2-customização-e-atualização-do-pacote-spf13-vim">Passo 2 - Customização e atualização do pacote SPF13-VIM</h4>
+
+<p>O arquivo <em>~/.vimrc</em> não deve ser alterado pois as modificações realizadas pelo SPF13 serão feitas neste arquivo.<br />
+Para qualquer customização local crie os arquivos <em>~/.vimrc.local</em> e <em>~/.gvimrc.local</em>.</p>
+
+<p>Por exemplo para sobrescrever da instalação padrão do SPF13-VIM, use:</p>
+
+<pre><code>echo colorscheme ir_black  &gt;&gt; ~/.vimrc.local
+</code></pre>
+
+<p>Para atualizar com a ultima versão do pacote SPF13-VIM:</p>
+
+<pre><code>cd $HOME/to/spf13-vim/
+git pull
+vim +BundleInstall! +BundleClean +q
+</code></pre>
+
+<p><strong>DICA:</strong> Você pode criar no seua arquivo <em>~/.bashrc</em> um <em>alias</em> vimupdateplugins=&lsquo;vim +BundleInstall! +BundleClean! +q&rsquo;</p>
+
+<h4 id="passo-3-começe-a-utilizar-o-vim-com-os-plugins-do-pacote-spf13">Passo 3 - Começe a utilizar o VIM com os plugins do pacote SPF13</h4>
+
+<h4 id="algumas-dicas-rápidas">Algumas dicas rápidas:</h4>
+
+<p><strong>Copiar e Colar</strong></p>
+
+<p>Use o mouse para selecionar e colocar o VIM e modo VISUAL automaticamente.<br />
+Copiar: Selecione o texto em modo VISUAL, V ou v, e &ldquo;+y<br />
+Colar: Em modo NORMAL, coloque o cursor onde deseja colar e &ldquo;+p</p>
+
+<p><strong>Plugin NERDTree</strong></p>
+
+<p>Para ver/esconder o plugin NERDTree para apresentar a janela de arquivos, Ctrl-E<br />
+Atualizar o diretório, em modo NORMAL<br />
+ r     # atualizar o diretório corrente e todos os subdiretórios<br />
+ R     # atualizar todos os diretórios sobre o diretório corrente (root dir)</p>
+
+<p><strong>Para mais dicas de uso do SPF13</strong></p>
+
+<p><a href="http://vim.spf13.com" target="_blank"><strong>Site SPF13</strong></a></p>
+
+</div>
+
+<div>
+    <div class="p-share">
+       <a href="https://www.facebook.com/sharer.php?src=bm&u=https%3a%2f%2fafontana.github.io%2fpost%2ftransformando_vim_IDE_com_SPF13%2f&t=Potencializar%20o%20editor%20VIM%20com%20o%20SPF13" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/intent/tweet?url=https%3a%2f%2fafontana.github.io%2fpost%2ftransformando_vim_IDE_com_SPF13%2f&text=Potencializar%20o%20editor%20VIM%20com%20o%20SPF13&tw_p=tweetbutton" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-twitter"></i></a>
+       <a href="https://plus.google.com/share?url=https%3a%2f%2fafontana.github.io%2fpost%2ftransformando_vim_IDE_com_SPF13%2f" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-google-plus"></i></a>
+       <a href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fafontana.github.io%2fpost%2ftransformando_vim_IDE_com_SPF13%2f&t=Potencializar%20o%20editor%20VIM%20com%20o%20SPF13" onclick="window.open(this.href, 'PCwindow', 'width=550, height=350, menubar=no, toolbar=no, scrollbars=yes'); return false;"><i class="fa fa-linkedin"></i></a>
+    </div>
+</div>
+
+</div>
+</div>
+<script src="https://afontana.github.io/js/ui.js"></script>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80818285-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
+
