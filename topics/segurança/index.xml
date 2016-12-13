@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Segurança on André Fontana</title>
+    <link>https://afontana.github.io/topics/seguran%C3%A7a/</link>
+    <description>Recent content in Segurança on André Fontana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>2016. André Fontana.</copyright>
+    <lastBuildDate>Sat, 23 Jul 2016 12:36:22 -0300</lastBuildDate>
+    <atom:link href="https://afontana.github.io/topics/seguran%C3%A7a/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Potencializar o editor VIM com o SPF13</title>
+      <link>https://afontana.github.io/post/transformando_vim_IDE_com_SPF13/</link>
+      <pubDate>Sat, 23 Jul 2016 12:36:22 -0300</pubDate>
+      
+      <guid>https://afontana.github.io/post/transformando_vim_IDE_com_SPF13/</guid>
+      <description>
+
+&lt;h2 id=&#34;vim&#34;&gt;VIM&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;VIM é um editor de textos altamente configurável feito para criar e modificar textos com agiliade e eficiência. Vim trabalha
+sobre o CLI (Command Line Interface) e todos sabemos que CLI é muito mais rápido sobre protocolo ssh comparado a GUI (Graphical User Interface).&lt;br /&gt;
+Mais detalhes sobre &lt;a href=&#34;http://www.vim.org&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;VIM&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;spf13&#34;&gt;SPF13&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;SPF13 é um distribuição de plugin e recursos que permite customizar o VIM provendo uma lista de funcionalidades modernas como autocompletar textos,
+gestão de configuração integrado ao GIT, tags, padrão de cores entre outros.&lt;br /&gt;
+Mais detalhes sobre &lt;a href=&#34;http://vim.spf13.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;SPF13&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Neste tutorial vou mostrar como adicionar a distribuição vim SPF13 que vem com plugins realmente bons e agilizam bastante o trabalho de criar e alterar
+textos. Claro que você pode optar por usar ou não os plugins e fica a seu critério definir o que melhor atende a suas expectativas, porém utilizando apenas
+o SPF13 já torna tudo mais prático ágil.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Antes de prosseguir, faça o backup de ~/.vimrc e todos os arquivos customizados do vim que estejam no seu diretório ~/&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Considerando que você já tenha o vim instalado. Caso nao tenha poderá instalar de acordo com sua distribuição linux.&lt;/p&gt;
+
+&lt;p&gt;Exemplo nas distribuições baseadas em Debian:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ sudo apt-get install vim 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para instalação atraves do código fonto do VIM veja a documentação &lt;a href=&#34;http://vimdoc.sourceforge.net/htmldoc/usr_90.html#install&#34; target =&#34;_blank&#34;&gt;&lt;strong&gt;AQUI&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;passo-1-instalar-a-distribuição-vim-spf13&#34;&gt;Passo 1 - Instalar a distribuição VIM SPF13&lt;/h4&gt;
+
+&lt;p&gt;Para instalar o pacote SPF13-VIM utilize o instalador automático.&lt;/p&gt;
+
+&lt;p&gt;Execute a linha de comando abaixo no terminal linux&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;curl http://j.mp/spf13-vim3 -L -o - | sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;passo-2-customização-e-atualização-do-pacote-spf13-vim&#34;&gt;Passo 2 - Customização e atualização do pacote SPF13-VIM&lt;/h4&gt;
+
+&lt;p&gt;O arquivo &lt;em&gt;~/.vimrc&lt;/em&gt; não deve ser alterado pois as modificações realizadas pelo SPF13 serão feitas neste arquivo.&lt;br /&gt;
+Para qualquer customização local crie os arquivos &lt;em&gt;~/.vimrc.local&lt;/em&gt; e &lt;em&gt;~/.gvimrc.local&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Por exemplo para sobrescrever da instalação padrão do SPF13-VIM, use:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;echo colorscheme ir_black  &amp;gt;&amp;gt; ~/.vimrc.local
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Para atualizar com a ultima versão do pacote SPF13-VIM:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;cd $HOME/to/spf13-vim/
+git pull
+vim +BundleInstall! +BundleClean +q
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;DICA:&lt;/strong&gt; Você pode criar no seua arquivo &lt;em&gt;~/.bashrc&lt;/em&gt; um &lt;em&gt;alias&lt;/em&gt; vimupdateplugins=&amp;lsquo;vim +BundleInstall! +BundleClean! +q&amp;rsquo;&lt;/p&gt;
+
+&lt;h4 id=&#34;passo-3-começe-a-utilizar-o-vim-com-os-plugins-do-pacote-spf13&#34;&gt;Passo 3 - Começe a utilizar o VIM com os plugins do pacote SPF13&lt;/h4&gt;
+
+&lt;h4 id=&#34;algumas-dicas-rápidas&#34;&gt;Algumas dicas rápidas:&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;Copiar e Colar&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Use o mouse para selecionar e colocar o VIM e modo VISUAL automaticamente.&lt;br /&gt;
+Copiar: Selecione o texto em modo VISUAL, V ou v, e &amp;ldquo;+y&lt;br /&gt;
+Colar: Em modo NORMAL, coloque o cursor onde deseja colar e &amp;ldquo;+p&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Plugin NERDTree&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Para ver/esconder o plugin NERDTree para apresentar a janela de arquivos, Ctrl-E&lt;br /&gt;
+Atualizar o diretório, em modo NORMAL&lt;br /&gt;
+ r     # atualizar o diretório corrente e todos os subdiretórios&lt;br /&gt;
+ R     # atualizar todos os diretórios sobre o diretório corrente (root dir)&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Para mais dicas de uso do SPF13&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://vim.spf13.com&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Site SPF13&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
