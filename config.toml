@@ -1,0 +1,10 @@
+base_url = "https://afontana.github.io"
+title = "André Fontana"
+description = "Pesquisa independente em sistemas de segurança imutáveis e criptografia pós-quântica."
+compile_sass = true
+build_search_index = true
+
+[markdown]
+highlight_code = true
+
+[extra]
