@@ -1,10 +1,30 @@
 base_url = "https://afontana.github.io"
 title = "André Fontana"
 description = "Pesquisa independente em sistemas de segurança imutáveis e criptografia pós-quântica."
+theme = "tabi"
+default_language = "pt"
+generate_feeds = true
 compile_sass = true
+minify_html = true
 build_search_index = true
+
+taxonomies = [{name = "tags", feed = true}]
 
 [markdown]
 highlight_code = true
 
+[markdown.highlighting]
+theme = "catppuccin-frappe"
+style = "class"
+
+[search]
+include_title = true
+include_content = true
+
 [extra]
+socials = [
+  { name = "github", url = "https://github.com/afontana", icon = "github" },
+]
+menu = [
+  { name = "Writing", url = "blog", trailing_slash = true },
+]
