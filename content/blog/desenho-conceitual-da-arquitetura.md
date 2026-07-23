@@ -14,41 +14,56 @@ Antes de qualquer decisão de implementação, teve uma pergunta simples
 que guiou tudo: que peças esse sistema precisa ter para que eu confie
 nele, mesmo sozinho, sem ninguém verificando meu trabalho por mim?
 
-A resposta virou este desenho.
+A resposta virou este desenho, organizado em camadas, com os perfis
+de trabalho como o eixo central.
 
 {% mermaid(invertible=true) %}
 graph TD
-    Base["Base imutável"] --> Perfis["Perfis de trabalho isolados"]
-    Perfis --> Fases["Fases dentro de cada perfil"]
-    Fases --> Exec["Container ou máquina virtual, conforme o risco"]
-    Manifesto["Manifesto vivo"] -.governa.-> Fases
-    Manifesto -.governa.-> Exec
+    Base["Base imutável"] --> Invasao["Perfil: Invasão"]
+    Base --> Defesa["Perfil: Defesa"]
+    Base --> Pericia["Perfil: Perícia forense"]
+    Base --> Malware["Perfil: Análise de malware"]
+
+    Invasao --> FaseI["Fases de trabalho"]
+    Defesa --> FaseD["Fases de trabalho"]
+    Pericia --> FaseP["Fases de trabalho"]
+    Malware --> FaseM["Fases de trabalho"]
+
+    FaseI --> ExecC1["Container"]
+    FaseD --> ExecC2["Container"]
+    FaseP --> ExecC3["Container"]
+    FaseM --> ExecVM["Máquina virtual"]
+
+    Manifesto["Manifesto vivo"] -.governa.-> FaseI
+    Manifesto -.governa.-> FaseD
+    Manifesto -.governa.-> FaseP
+    Manifesto -.governa.-> FaseM
 {% end %}
 
-## As quatro camadas
+## As camadas, de baixo para cima
 
 **Base imutável.** O sistema operacional em si não muda sem passar
 por um processo explícito de transação, com snapshot e possibilidade
-de reverter. É o ponto fixo de tudo que vem depois. Se essa camada
-puder ser alterada silenciosamente, nenhuma garantia acima dela
-significa nada.
+de reverter. É o ponto fixo de tudo que vem depois.
 
-**Perfis de trabalho isolados.** O laboratório não é um ambiente
-único e genérico. É dividido em contextos de uso distintos, cada um
-com seu próprio espaço, sem vazamento de ferramenta ou configuração
-entre eles.
+**Perfis de trabalho.** Sobre essa base, quatro perfis isolados:
+invasão, defesa, perícia forense e análise de malware. Cada um vive
+no seu próprio espaço, sem vazamento de ferramenta ou configuração
+entre eles. Essa camada é o eixo do desenho inteiro, porque é aqui
+que a ideia de isolamento vira decisão concreta, não princípio
+abstrato.
 
-**Fases dentro de cada perfil.** Cada perfil, por sua vez, se divide
-em momentos de trabalho específicos. Cada fase carrega só o
-ferramental daquele momento, isolado das demais fases do mesmo
+**Fases dentro de cada perfil.** Cada perfil se divide em momentos de
+trabalho específicos. Uma fase de reconhecimento não carrega o
+ferramental de uma fase de exfiltração, mesmo estando no mesmo
 perfil.
 
-**Execução proporcional ao risco.** Nem toda fase merece o mesmo tipo
-de isolamento. A maioria roda em container, leve e descartável. A que
-lida com o material mais perigoso roda numa máquina virtual completa,
-com fronteira de kernel própria.
+**Execução proporcional ao risco.** A maioria das fases roda em
+container, leve e descartável. A análise de malware, que lida com o
+material mais perigoso, roda numa máquina virtual completa, com
+fronteira de kernel própria.
 
-## Por que essas quatro juntas, e não menos
+## Por que essas camadas juntas, e não menos
 
 Cada camada existe porque, sozinha, alguma das outras deixaria uma
 pergunta sem resposta.
@@ -61,10 +76,10 @@ aviso. Fases sem execução proporcional ao risco tratariam um scan de
 rede e uma análise de malware ativo com o mesmo nível de contenção, o
 que é simplesmente errado.
 
-E nenhuma dessas três camadas, sozinha, resolve a pergunta de
-proveniência: por que confiar no que está instalado em cada fase. É
-para isso que existe a quarta peça, o manifesto vivo, que atravessa
-todas as outras em vez de ficar ao lado delas. Ele não é uma camada a
+E nenhuma dessas camadas, sozinha, resolve a pergunta de proveniência:
+por que confiar no que está instalado em cada fase de cada perfil. É
+para isso que existe a última peça, o manifesto vivo, que atravessa
+todos os perfis em vez de ficar ao lado deles. Ele não é uma camada a
 mais na pilha. É a governança que decide o que entra em cada fase, e
 por quê.
 
@@ -72,7 +87,7 @@ por quê.
 
 Um diagrama de arquitetura sempre mente por omissão. Este aqui não
 mostra os becos sem saída que precisaram ser percorridos até chegar
-nesse formato, nem as vezes em que uma camada foi implementada de um
-jeito, testada, e revertida porque violava um princípio das outras
+nesse formato, nem as vezes em que um perfil foi implementado de um
+jeito, testado, e revertido porque violava um princípio dos outros
 três. Essa parte, a mais honesta e a mais difícil de desenhar num
 quadro, é o assunto dos próximos textos.
