@@ -28,6 +28,6 @@ para registrar.
 
 ## O que já foi publicado, em ordem
 
-1. [Sem gestão de projeto, um blueprint é só uma lista de desejos](/blog/laboratorio-de-seguranca/blueprint-sem-gestao/)
+1. [Sem gestão de projeto, um blueprint é só uma lista de desejos](/blog/blueprint-sem-gestao-e-so-lista-de-desejos.md)
 2. [O desenho conceitual da arquitetura](/blog/laboratorio-de-seguranca/desenho-conceitual/)
 3. [Um dia real dentro do laboratório](/blog/laboratorio-de-seguranca/um-dia-no-laboratorio/)
