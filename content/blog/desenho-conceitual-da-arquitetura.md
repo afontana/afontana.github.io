@@ -5,9 +5,6 @@ description = "As peças que sustentam o laboratório que venho construindo, e p
 
 [taxonomies]
 tags = ["arquitetura", "segurança", "sistemas imutáveis"]
-
-[extra]
-mermaid = true
 +++
 
 Antes de qualquer decisão de implementação, teve uma pergunta simples
@@ -16,29 +13,25 @@ nele, mesmo sozinho, sem ninguém verificando meu trabalho por mim?
 
 A resposta virou este desenho, organizado em camadas, com os perfis
 de trabalho como o eixo central.
+        MANIFESTO VIVO
 
-{% mermaid(invertible=true) %}
-graph TD
-    Base["Base imutável"] --> Invasao["Perfil: Invasão"]
-    Base --> Defesa["Perfil: Defesa"]
-    Base --> Pericia["Perfil: Perícia forense"]
-    Base --> Malware["Perfil: Análise de malware"]
+(governa as fases de todos os perfis)
+|
+v
++--------------------------------+
+| PERFIS DE TRABALHO |
++--------------------------------+
+| invasao -> fases -> container|
+| defesa -> fases -> container|
+| pericia -> fases -> container|
+| malware -> fases -> maquina |
+| virtual |
++--------------------------------+
+|
+v
+BASE IMUTAVEL
+(ponto fixo, snapshot e rollback)
 
-    Invasao --> FaseI["Fases de trabalho"]
-    Defesa --> FaseD["Fases de trabalho"]
-    Pericia --> FaseP["Fases de trabalho"]
-    Malware --> FaseM["Fases de trabalho"]
-
-    FaseI --> ExecC1["Container"]
-    FaseD --> ExecC2["Container"]
-    FaseP --> ExecC3["Container"]
-    FaseM --> ExecVM["Máquina virtual"]
-
-    Manifesto["Manifesto vivo"] -.governa.-> FaseI
-    Manifesto -.governa.-> FaseD
-    Manifesto -.governa.-> FaseP
-    Manifesto -.governa.-> FaseM
-{% end %}
 
 ## As camadas, de baixo para cima
 
@@ -63,6 +56,10 @@ container, leve e descartável. A análise de malware, que lida com o
 material mais perigoso, roda numa máquina virtual completa, com
 fronteira de kernel própria.
 
+**Manifesto vivo, no topo.** Não é uma camada empilhada como as
+outras. Governa o que entra em cada fase de cada perfil, atravessando
+todo o resto em vez de ficar ao lado.
+
 ## Por que essas camadas juntas, e não menos
 
 Cada camada existe porque, sozinha, alguma das outras deixaria uma
@@ -78,10 +75,7 @@ que é simplesmente errado.
 
 E nenhuma dessas camadas, sozinha, resolve a pergunta de proveniência:
 por que confiar no que está instalado em cada fase de cada perfil. É
-para isso que existe a última peça, o manifesto vivo, que atravessa
-todos os perfis em vez de ficar ao lado deles. Ele não é uma camada a
-mais na pilha. É a governança que decide o que entra em cada fase, e
-por quê.
+para isso que existe o manifesto vivo.
 
 ## O que este desenho não mostra
 
