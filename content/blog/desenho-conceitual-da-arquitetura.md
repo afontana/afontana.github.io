@@ -5,6 +5,9 @@ description = "As peças que sustentam o laboratório que venho construindo, e p
 
 [taxonomies]
 tags = ["arquitetura", "segurança", "sistemas imutáveis"]
+
+[extra]
+mermaid = true
 +++
 
 Antes de qualquer decisão de implementação, teve uma pergunta simples
@@ -13,25 +16,22 @@ nele, mesmo sozinho, sem ninguém verificando meu trabalho por mim?
 
 A resposta virou este desenho, organizado em camadas, com os perfis
 de trabalho como o eixo central.
-        MANIFESTO VIVO
 
-(governa as fases de todos os perfis)
-|
-v
-+--------------------------------+
-| PERFIS DE TRABALHO |
-+--------------------------------+
-| invasao -> fases -> container|
-| defesa -> fases -> container|
-| pericia -> fases -> container|
-| malware -> fases -> maquina |
-| virtual |
-+--------------------------------+
-|
-v
-BASE IMUTAVEL
-(ponto fixo, snapshot e rollback)
+{% mermaid(invertible=true) %}
+graph TD
+    Manifesto["Manifesto vivo"] -.governa.-> Perfis
+    Base["Base imutável"] --> Perfis
 
+    subgraph Perfis["Perfis de trabalho"]
+        P1["Invasão"]
+        P2["Defesa"]
+        P3["Perícia forense"]
+        P4["Análise de malware"]
+    end
+
+    Perfis --> Fases["Fases de trabalho"]
+    Fases --> Exec["Container, ou máquina virtual no perfil de malware"]
+{% end %}
 
 ## As camadas, de baixo para cima
 
