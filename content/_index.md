@@ -30,4 +30,4 @@ para registrar.
 
 1. [Sem gestão de projeto, um blueprint é só uma lista de desejos](/blog/blueprint-sem-gestao-e-so-lista-de-desejos/)
 2. [O desenho conceitual da arquitetura](/blog/desenho-conceitual-da-arquitetura/)
-3. [Um dia real dentro do laboratório](/blog/laboratorio-de-seguranca/um-dia-no-laboratorio/)
+3. [Um dia real dentro do laboratório](/blog/um-dia-dentro-do-laboratorio/)
