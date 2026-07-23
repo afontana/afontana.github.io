@@ -24,6 +24,7 @@ include_content = true
 [extra]
 socials = [
   { name = "github", url = "https://github.com/afontana", icon = "github" },
+  { name = "linkedin", url = "https://br.linkedin.com/in/andrefontana", icon = "linkedin" },
 ]
 menu = [
   { name = "Escrita", url = "blog", trailing_slash = true },
