@@ -27,4 +27,5 @@ socials = [
 ]
 menu = [
   { name = "Escrita", url = "blog", trailing_slash = true },
+  { name = "Sobre", url = "sobre", trailing_slash = true },
 ]
