@@ -1,5 +1,5 @@
 base_url = "https://afontana.github.io"
-title = "André Fontana"
+title = "André Luís Fontana"
 description = "Pesquisa independente em sistemas de segurança imutáveis e criptografia pós-quântica."
 theme = "tabi"
 default_language = "pt"
@@ -26,5 +26,5 @@ socials = [
   { name = "github", url = "https://github.com/afontana", icon = "github" },
 ]
 menu = [
-  { name = "Writing", url = "blog", trailing_slash = true },
+  { name = "Escrita", url = "blog", trailing_slash = true },
 ]

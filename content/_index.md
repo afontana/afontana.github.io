@@ -1,7 +1,8 @@
 +++
 title = "Home"
-paginate_by = 5
-template = "index.html"
+
+[extra]
+section_path = "blog/_index.md"
 +++
 
 Pesquisa independente em sistemas de segurança imutáveis, orquestração de

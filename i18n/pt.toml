@@ -1,0 +1,86 @@
+# NOTE: The labels for GitHub-style alerts are defined in sass/parts/_admonitions.scss.
+# Please keep both in sync when adding or updating a language.
+language_name = "Português"  # Shown in language picker for multi-language sites.
+date_locale = "pt_BR"
+full_stop = "."  # Used at the end of a sentence.
+# Menu items.
+# Should match the names in config.extra.menu and config.extra.footer_menu.
+blog = "escrita"
+archive = "arquivo"
+tags = "tags"
+projects = "projetos"
+about = "sobre"
+contact = "contato"
+privacy = "política de privacidade"
+site_statistics = "estatísticas do site"
+sitemap = "mapa do site"
+# Search.
+search = "Buscar"
+search_icon_title = "Clique ou pressione $SHORTCUT para abrir a busca"
+clear_search = "Limpar busca"
+zero_results = "Nenhum resultado"
+one_results = "$NUMBER resultado"
+many_results = "$NUMBER resultados"
+# Navigation.
+skip_to_content = "Pular para o conteúdo"
+pinned = "Fixado"
+jump_to_posts = "Ir para os posts"
+read_more = "Leia mais"
+one_posts = "$NUMBER post"
+many_posts = "$NUMBER posts"
+prev = "Anterior"
+next = "Próximo"
+of = "de"
+all_posts = "Todos os posts"
+all_tags = "Todas as tags"
+all_projects = "Todos os projetos"
+featured_projects = "Projetos em destaque"
+language_selection = "Seleção de idioma"
+toggle_mode = "Alternar para modo $MODE"
+dark = "escuro"
+light = "claro"
+reset_mode = "Restaurar modo padrão"
+# Quick navigation buttons.
+toggle_toc = "Alternar sumário"
+go_to_top = "Ir para o topo da página"
+go_to_comments = "Ir para os comentários"
+# Post metadata.
+by_author = "Por $AUTHOR"
+author_separator = ", "
+author_conjunction = " e "
+draft = "RASCUNHO"
+zero_min_read = "<1 min de leitura"
+one_min_read = "$NUMBER min de leitura"
+many_min_read = "$NUMBER min de leitura"
+zero_words = "Sem palavras"
+one_words = "$NUMBER palavra"
+many_words = "$NUMBER palavras"
+last_updated_on = "Atualizado em $DATE"
+see_changes = "Ver alterações"
+# Post body.
+table_of_contents = "Sumário"
+load_comments = "Carregar comentários"
+# Copy code block button.
+copied = "Copiado!"
+copy_code_to_clipboard = "Copiar código"
+# iine appreciation button.
+like_this_post = "Curtir este post"
+# Footer: Powered by Zola and tabi.
+powered_by = "Feito com"
+and = "&"
+site_source = "Código-fonte do site"
+# 404 error.
+page_missing = "A página que você procurou parece não existir"
+translation_missing = "ou ainda não foi traduzida para o seu idioma"
+check_url = "Verifique se a URL está correta ou"
+go_home = "volte para a página inicial"
+# For multilingual quote shortcode.
+show_original_quote = "Mostrar citação original"
+show_translation = "Mostrar tradução"
+open_quotation_mark = "“"
+close_quotation_mark = "”"
+# Translations for stylised Atom feed.
+# Must contain "About Feeds"; it will become a link.
+about_feeds = "Este é um feed web, também conhecido como feed Atom. Assine copiando a URL da barra de endereços para o seu leitor de feeds. Visite About Feeds para saber mais e começar. É gratuito."
+visit_the_site = "Visitar site"
+recent_posts = "Posts recentes"
