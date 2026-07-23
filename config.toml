@@ -27,6 +27,7 @@ socials = [
   { name = "linkedin", url = "https://br.linkedin.com/in/andrefontana", icon = "linkedin" },
 ]
 menu = [
+  { name = "Projeto (LAB)", url = "projeto", trailing_slash = true },
   { name = "Escrita", url = "blog", trailing_slash = true },
   { name = "Sobre", url = "sobre", trailing_slash = true },
 ]
