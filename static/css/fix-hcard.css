@@ -1,0 +1,13 @@
+.h-card.hidden {
+  display: none !important;
+}
+
+.profile-photo {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 24px;
+  border: 2px solid var(--rule, #333);
+}

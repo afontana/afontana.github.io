@@ -22,12 +22,22 @@ include_title = true
 include_content = true
 
 [extra]
+stylesheets = ["css/fix-hcard.css"]
+fallback_og_image = "img/profile.png"
 socials = [
   { name = "github", url = "https://github.com/afontana", icon = "github" },
   { name = "linkedin", url = "https://br.linkedin.com/in/andrefontana", icon = "linkedin" },
 ]
 menu = [
   { name = "Projeto (LAB)", url = "projeto", trailing_slash = true },
-  { name = "Escrita", url = "blog", trailing_slash = true },
+  { name = "Notas", url = "blog", trailing_slash = true },
+  { name = "Arquivo", url = "arquivo", trailing_slash = true },
   { name = "Sobre", url = "sobre", trailing_slash = true },
 ]
+
+remote_repository_url = "https://github.com/afontana/afontana.github.io"
+remote_repository_git_platform = "auto"
+remote_repository_branch = "main"
+show_remote_changes = true
+show_remote_source = true
+insert_anchor_links = "left"

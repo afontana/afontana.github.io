@@ -1,17 +1,19 @@
 +++
 title = "Home"
-
-[extra]
-section_path = "blog/_index.md"
 +++
 
-Este espaço é um registro de pesquisa em andamento, não um portfólio
-de resultados fechados.
+<img src="/img/profile.png" alt="Foto de André Luís Fontana" class="profile-photo">
 
-Documento aqui a evolução de um jeito de pensar que cruza gestão de
-projetos, segurança ofensiva e sistemas assistidos por IA: as
-perguntas que motivam cada decisão, os becos sem saída, as revisões
-de rumo, o que muda quando a teoria encontra um incidente real.
+**Comece por aqui.**
+
+Sou pesquisador independente na interseção entre gestão de projetos,
+segurança cibernética e inteligência artificial. Este espaço é um
+registro de pesquisa em andamento, não um portfólio de resultados
+fechados.
+
+Documento aqui a evolução de um jeito de pensar: as perguntas que
+motivam cada decisão, os becos sem saída, as revisões de rumo, o que
+muda quando a teoria encontra um incidente real.
 
 Um dos lugares onde essas ideias estão sendo testadas na prática é um
 laboratório de segurança que venho construindo, sozinho, organizado
@@ -26,8 +28,6 @@ Certificação real é a que você aprende trilhando o caminho e
 ajustando a rota. Isso gera conhecimento. É o que este espaço existe
 para registrar.
 
-## O que já foi publicado, em ordem
-
-1. [Sem gestão de projeto, um blueprint é só uma lista de desejos](/blog/blueprint-sem-gestao-e-so-lista-de-desejos/)
-2. [O desenho conceitual da arquitetura](/blog/desenho-conceitual-da-arquitetura/)
-3. [Um dia real dentro do laboratório](/blog/um-dia-dentro-do-laboratorio/)
+Veja o [projeto](/projeto/) para conhecer a arquitetura do
+laboratório, ou [notas](/blog/) para acompanhar tudo que venho
+publicando.
